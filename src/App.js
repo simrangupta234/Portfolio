@@ -1,8 +1,8 @@
 import "./App.css";
 import "./style.css";
 import React, { Component } from "react";
-import Navbar from "./components/Navbar";
-import About from "./components/About";
+import Navbar from "./components/Navbar/Navbar";
+import About from "./components/About/About";
 import Home from "./components/Home";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";

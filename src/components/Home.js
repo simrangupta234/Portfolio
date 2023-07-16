@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import Typewriter from "typewriter-effect";
-import main from "../Assets/home-main.svg";
+import main from "../Assets/homemain.svg";
 export class Home extends Component {
   render() {
     return (
@@ -11,7 +11,7 @@ export class Home extends Component {
             <Row>
               <Col md={7} className="home-header">
                 <h1 className="heading">
-                  Hi There!{" "}
+                  Hi <a  style={{ color: "#702963"}}>There!</a>{" "}
                   <span className="wave" role="img" aria-labelledby="wave">
                     👋🏻
                   </span>
@@ -19,10 +19,11 @@ export class Home extends Component {
 
                 <h1 className="heading-name">
                   I'M
-                  <strong className="main-name"> SIMRAN GUPTA</strong>
+                  <a  style={{ color: "#702963"}}><strong className="main-name"> SIMRAN GUPTA</strong></a>
                 </h1>
 
                 <div>
+                <a  style={{ color: "#702963"}}>
                   <Typewriter
                     options={{
                       strings: [
@@ -35,6 +36,7 @@ export class Home extends Component {
                       deleteSpeed: 50,
                     }}
                   />
+                  </a>
                 </div>
               </Col>
 

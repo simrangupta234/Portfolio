@@ -1,90 +1,84 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
+import "../../components/Navbar/Navbar.css";
 
-const Navbar = () => {
+function NavBar() {
   const [click, setClick] = useState(false);
 
   const handleClick = () => setClick(!click);
-  const Close = () => setClick(false);
-  const [navbar, updateNavbar] = useState(false);
-
-  function scrollHandler() {
-    if (window.scrollY >= 20) {
-      updateNavbar(true);
-    } else {
-      updateNavbar(false);
-    }
-  }
-
-  window.addEventListener("scroll", scrollHandler);
   return (
-    <div className={click ? "main-container" : ""} onClick={() => Close()}>
-      <nav
-        className={navbar ? "sticky" : "navbar"}
-        fixed="top"
-        onClick={(e) => e.stopPropagation()}
-      >
+    <>
+      <nav className="navbar">
         <div className="nav-container">
-          <NavLink className="logo">
-            <h2>
-              <span>P</span>ortfolio
-            </h2>
+          <NavLink exact to="/" className="nav-logo">
+            Portfolio
+            <a  style={{ color: "#702963"}}><i className="fas fa-code"></i></a>
           </NavLink>
 
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
               <NavLink
+                exact
                 to="/"
+                activeClassName="active"
                 className="nav-links"
-                onClick={click ? handleClick : null}
+                onClick={handleClick}
               >
                 Home
               </NavLink>
             </li>
             <li className="nav-item">
               <NavLink
+                exact
                 to="/about"
+                activeClassName="active"
                 className="nav-links"
-                onClick={click ? handleClick : null}
+                onClick={handleClick}
               >
                 About
               </NavLink>
             </li>
             <li className="nav-item">
               <NavLink
+                exact
                 to="/projects"
+                activeClassName="active"
                 className="nav-links"
-                onClick={click ? handleClick : null}
+                onClick={handleClick}
               >
                 Projects
               </NavLink>
             </li>
             <li className="nav-item">
               <NavLink
-                to="/resume"
-                className="nav-links"
-                onClick={click ? handleClick : null}
-              >
-                Resume
-              </NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink
+                exact
                 to="/blogs"
+                activeClassName="active"
                 className="nav-links"
-                onClick={click ? handleClick : null}
+                onClick={handleClick}
               >
                 Blogs
               </NavLink>
             </li>
+            <li className="nav-item">
+              <NavLink
+                exact
+                to="/resume"
+                activeClassName="active"
+                className="nav-links"
+                onClick={handleClick}
+              >
+                Resume
+              </NavLink>
+            </li>
           </ul>
           <div className="nav-icon" onClick={handleClick}>
-            <i className={click ? "fa fa-times" : "fa fa-bars"}></i>
+            <i className={click ? "fas fa-times" : "fas fa-bars"}></i>
           </div>
         </div>
       </nav>
-    </div>
+    </>
   );
-};
+}
 
-export default Navbar;
+export default NavBar;

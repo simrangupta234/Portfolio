@@ -8,7 +8,7 @@ export default class Resume extends Component {
         <h1 className="title">Resume</h1>
         <div>
           <a href={Pdf} target="_blank" rel="noreferrer">
-            <button type="button" className="btns btn-primary">
+            <button type="button" className="btns">
               Download Pdf
             </button>
           </a>
@@ -25,7 +25,7 @@ export default class Resume extends Component {
         </div>
         <div>
           <a href={Pdf} target="_blank" rel="noreferrer">
-            <button type="button" className="btns btn-primary">
+            <button type="button" className="btns">
               Download Pdf
             </button>
           </a>
