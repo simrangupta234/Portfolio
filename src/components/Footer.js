@@ -39,25 +39,27 @@ export class Footer extends Component {
             <textarea
               name=""
               id=""
-              cols="60"
+         
               rows="1"
               placeholder="From:"
             ></textarea>
+            <br />
             <textarea
               name=""
               id=""
-              cols="60"
+              
               rows="1"
               placeholder="Subject:"
             ></textarea>
+            <br />
             <textarea
               name=""
               id=""
-              cols="60"
+              
               rows="6"
               placeholder="Write message..."
             ></textarea>
-
+<br />
             <button className="btns">Send A message</button>
           </Col>
         </Row>

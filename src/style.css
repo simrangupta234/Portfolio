@@ -20,7 +20,8 @@ a:hover {
 }
 
 .home-content {
-  margin: 150px 110px;
+  margin-top: 150px;
+  margin-bottom: 150px;
 }
 
 .home-header h1 {
@@ -44,6 +45,14 @@ a:hover {
 .footer-container1 {
   background-color: black;
   padding: 60px;
+}
+
+textarea {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+  width: 100%;
 }
 
 .footer-container2 {
