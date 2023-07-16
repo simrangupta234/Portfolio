@@ -12,10 +12,24 @@
     overflow: hidden !important;
     transition: all 0.4s ease 0s !important;
   }
+  .about-content{
+    text-align: left;
+    padding-left : 200px;
+    padding-right: 200px;
+
+
+
+  }
 
   @media (max-width: 767px) {
     .tech-icons {
       margin: 10px !important;
+    }
+    
+  .about-content{
+    text-align: left;
+    padding-left: 100px;
+    padding-right: 100px;
     }
   }
   

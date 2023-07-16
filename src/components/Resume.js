@@ -18,9 +18,8 @@ export default class Resume extends Component {
             title="pdf"
             className="Container"
             src={Pdf}
-            frameBorder="0"
-            width="802"
-            height="1100"
+            width= "80%"
+            height= "900"
           ></iframe>
         </div>
         <div>

@@ -6,7 +6,7 @@ export default class About extends Component {
     return (
       <div className="Container">
         <h1 className="title">About<a  style={{ color: "#702963"}}> me</a></h1>
-        <div style={{textAlign: "left" , paddingLeft : "200px"}}>
+        <div className="about-content" >
         <p>
           Hi Everyone, I am Simran Gupta. I am a 3rd year student pursuing
           B.tech from <a  style={{ color: "#702963"}}>  GL Bajaj Group Of Institutions Mathura.</a>
