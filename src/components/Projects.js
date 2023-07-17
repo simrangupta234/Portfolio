@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import clock from "../Assets/images/clock.png";
 import simongame from "../Assets/images/simongame.png";
+import drumkit from "../Assets/images/drumkit.jpg";
 import textUtils from "../Assets/images/textUtils.png";
 import calculator from "../Assets/images/calculator.png";
 import tictactoe from "../Assets/images/tictactoe.png";
@@ -33,7 +34,7 @@ export default class Projects extends Component {
             </div>
           </Col>
           <Col md={3} className="project-card">
-            <img src={simongame} className="card-img-top" alt="..." />
+            <img src={drumkit} className="card-img-top" alt="..." />
             <div className="card-body">
               <h5 className="card-title">Drum Kit</h5>
               <p className="card-text">
@@ -45,10 +46,7 @@ export default class Projects extends Component {
               >
                 Github
               </a>
-              <a
-                href="https://drumkitweb2.netlify.app/"
-                className="btns"
-              >
+              <a href="https://drumkitweb2.netlify.app/" className="btns">
                 Demo
               </a>
             </div>
@@ -130,7 +128,7 @@ export default class Projects extends Component {
                 Github
               </a>
               <a
-                href="https://github.com/simrangupta234/Tindog"
+                href="https://simrangupta234.github.io/Tindog.github.io/"
                 className="btns"
               >
                 Demo
