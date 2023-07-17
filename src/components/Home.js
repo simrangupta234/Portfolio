@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import Typewriter from "typewriter-effect";
-import main from "../Assets/homemain.svg";
+import main from "../Assets/homemain.png";
 export class Home extends Component {
   render() {
     return (
