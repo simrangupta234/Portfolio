@@ -25,7 +25,28 @@ export default class Projects extends Component {
                 Github
               </a>
               <a
-                href="https://github.com/simrangupta234/textUtils"
+                href="https://textutilitywebsite.netlify.app/"
+                className="btns"
+              >
+                Demo
+              </a>
+            </div>
+          </Col>
+          <Col md={3} className="project-card">
+            <img src={simongame} className="card-img-top" alt="..." />
+            <div className="card-body">
+              <h5 className="card-title">Drum Kit</h5>
+              <p className="card-text">
+                It is a music web site which play sounds of musical instruments.
+              </p>
+              <a
+                href="https://github.com/simrangupta234/DrumKit"
+                className="btns"
+              >
+                Github
+              </a>
+              <a
+                href="https://drumkitweb2.netlify.app/"
                 className="btns"
               >
                 Demo
@@ -46,7 +67,7 @@ export default class Projects extends Component {
                 Github
               </a>
               <a
-                href="https://github.com/simrangupta234/SimonGame"
+                href="https://simrangupta234.github.io/SimonGame/"
                 className="btns"
               >
                 Demo
@@ -67,7 +88,7 @@ export default class Projects extends Component {
                 Github
               </a>
               <a
-                href="https://github.com/simrangupta234/Calculator"
+                href="https://simrangupta234.github.io/Calculator/"
                 className="btns"
               >
                 Demo
@@ -88,7 +109,7 @@ export default class Projects extends Component {
                 Github
               </a>
               <a
-                href="https://github.com/simrangupta234/AnalogClock.github.io"
+                href="https://simrangupta234.github.io/AnalogClock.github.io/"
                 className="btns"
               >
                 Demo
