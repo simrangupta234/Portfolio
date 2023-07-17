@@ -128,7 +128,7 @@ export default class Projects extends Component {
                 Github
               </a>
               <a
-                href="https://simrangupta234.github.io/Tindog.github.io/"
+                href="https://simrangupta234.github.io/Tindog"
                 className="btns"
               >
                 Demo
