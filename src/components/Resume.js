@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Pdf from "../Assets/simranguptaresume.pdf";
+import Pdf from "../Assets/images/simranguptaresume.pdf";
 
 export default class Resume extends Component {
   render() {
@@ -18,8 +18,8 @@ export default class Resume extends Component {
             title="pdf"
             className="Container"
             src={Pdf}
-            width= "80%"
-            height= "900"
+            width="80%"
+            height="900"
           ></iframe>
         </div>
         <div>
