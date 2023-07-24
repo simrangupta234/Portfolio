@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Pdf from "../Assets/SimranGuptaResume.pdf";
+import Pdf from "../Assets/simranguptaresume.pdf";
 
 export default class Resume extends Component {
   render() {

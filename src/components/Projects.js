@@ -7,6 +7,7 @@ import textUtils from "../Assets/images/textUtils.png";
 import calculator from "../Assets/images/calculator.png";
 import tictactoe from "../Assets/images/tictactoe.png";
 import tindog from "../Assets/images/tindog.png";
+import train from "../Assets/images/train.jfif";
 
 export default class Projects extends Component {
   render() {
@@ -14,6 +15,28 @@ export default class Projects extends Component {
       <Container fluid className="Container">
         <h1 className="title">Projects</h1>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={3} className="project-card">
+            <img src={train} className="card-img-top" alt="..." />
+            <div className="card-body">
+              <h5 className="card-title">Text Utils</h5>
+              <p className="card-text">
+                Train Schedule Web application using own sample API for train
+                data.
+              </p>
+              <a
+                href="https://github.com/simrangupta234/trainScheduleWebApp"
+                className="btns"
+              >
+                Github
+              </a>
+              <a
+                href="https://github.com/simrangupta234/trainScheduleWebApp"
+                className="btns"
+              >
+                Demo
+              </a>
+            </div>
+          </Col>
           <Col md={3} className="project-card">
             <img src={textUtils} className="card-img-top" alt="..." />
             <div className="card-body">
