@@ -18,7 +18,7 @@ export default class Projects extends Component {
           <Col md={3} className="project-card">
             <img src={train} className="card-img-top" alt="..." />
             <div className="card-body">
-              <h5 className="card-title">Text Utils</h5>
+              <h5 className="card-title">Train Schedule Web application</h5>
               <p className="card-text">
                 Train Schedule Web application using own sample API for train
                 data.
