@@ -8,6 +8,7 @@ import calculator from "../Assets/images/calculator.png";
 import tictactoe from "../Assets/images/tictactoe.png";
 import tindog from "../Assets/images/tindog.png";
 import train from "../Assets/images/train.jfif";
+import nuviehub from "../Assets/images/nuviehub.png";
 
 export default class Projects extends Component {
   render() {
@@ -15,6 +16,28 @@ export default class Projects extends Component {
       <Container fluid className="Container">
         <h1 className="title">Projects</h1>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={3} className="project-card">
+            <img src={nuviehub} className="card-img-top" alt="..." />
+            <div className="card-body">
+              <h5 className="card-title">NuvieHub</h5>
+              <p className="card-text">
+                Movie browsing Web application using own sample API with backend
+                and database.
+              </p>
+              <a
+                href="https://github.com/simrangupta234/NuvieHub"
+                className="btns"
+              >
+                Github
+              </a>
+              <a
+                href="https://www.youtube.com/watch?v=MHqoVewOzSY"
+                className="btns"
+              >
+                Demo
+              </a>
+            </div>
+          </Col>
           <Col md={3} className="project-card">
             <img src={train} className="card-img-top" alt="..." />
             <div className="card-body">
